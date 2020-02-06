@@ -1,7 +1,7 @@
 var id = 0;
 
 function criticalConnections(numberOfNodes, connections) {
-  const graph = buildGraph;
+  const graph = buildGraph(connections);
   const low = new Array(numberOfNodes);
   const disc = new Array(numberOfNodes);
   disc.fill(-1);
@@ -13,7 +13,7 @@ function criticalConnections(numberOfNodes, connections) {
 }
 
 function dfs(current, low, disc, result, graph, parent) {
-  
+
 }
 
 function buildGraph(connections) {
