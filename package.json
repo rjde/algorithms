@@ -1,0 +1,14 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rjde/algorithms",
+  "author": "rjde <rjuidev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
